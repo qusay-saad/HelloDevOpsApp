@@ -1,0 +1,21 @@
+{
+  "name": "hellodevopsapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test_script": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "test":"jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}

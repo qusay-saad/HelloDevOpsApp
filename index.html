@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Hello DevOps App</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f6fb;
+text-align:center;
+margin-top:100px;
+}
+
+.container{
+background:white;
+width:300px;
+margin:auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+}
+
+button{
+padding:10px;
+margin:5px;
+border:none;
+background:#2b8a3e;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#364fc7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    
+
+<h1 id="title">Hello DevOps</h1>
+
+<p>This is my first DevOps learning app</p>
+
+<h2 id="counter">0</h2>
+
+<button onclick="changeText()">Change Text</button>
+
+<button onclick="increaseCounter()">Increase</button>
+
+<button onclick="resetCounter()">Reset</button>
+
+
+<button onclick="checkServer()">Check Server</button>
+
+
+<button onclick="checkHealth()">Health Check</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
