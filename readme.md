@@ -2,6 +2,8 @@
 
 ![CI](https://github.com/qusay-saad/hello-cicd-project/actions/workflows/pipeline.yml/badge.svg)
 
+[![DevOps CI Pipeline](https://github.com/qusay-saad/HelloDevOpsApp/actions/workflows/pipeline.yml/badge.svg)](https://github.com/qusay-saad/HelloDevOpsApp/actions/workflows/pipeline.yml)
+
 
 Why this is powerful
 
