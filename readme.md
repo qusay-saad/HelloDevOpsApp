@@ -1,3 +1,8 @@
+# Hello DevOps App
+
+![CI](https://github.com/qusay-saad/hello-cicd-project/actions/workflows/pipeline.yml/badge.svg)
+
+
 Why this is powerful
 
 Now your workflow becomes:

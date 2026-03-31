@@ -31,6 +31,17 @@ timestamp:Date.now()
 
 
 
+app.get("/version",(req,res)=>{
+
+res.json({
+version:"1.0.0",
+name:"Hello DevOps App"
+});
+
+});
+
+
+
 
 
 
