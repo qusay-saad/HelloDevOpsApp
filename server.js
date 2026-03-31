@@ -35,7 +35,8 @@ timestamp:Date.now()
 
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 
 if(process.env.NODE_ENV !== "test"){
 
